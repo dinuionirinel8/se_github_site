@@ -1,0 +1,14 @@
+<iframe width="250" height="250" srcdoc='
+<style>
+.box {
+  width:100px; height:100px; background:#4a90e2;
+  animation:image-animation-example 2s infinite;
+}
+@keyframes image-animation-example {
+  from {border-radius:0; transform:scale(1); opacity:1;}
+  50% {border-radius:100px; transform:rotate(180deg); opacity:0;}
+  to {border-radius:0; transform:rotate(360deg); opacity:1;}
+}
+body {display:flex; justify-content:center; align-items:center; height:100vh; margin:0; background:#f4f4f4;}
+</style>
+<div class="box"></div>'></iframe>
